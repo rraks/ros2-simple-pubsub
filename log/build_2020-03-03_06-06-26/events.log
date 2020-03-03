@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.001484] (pubsub) JobQueued: {'identifier': 'pubsub', 'dependencies': OrderedDict()}
+[0.003914] (pubsub) JobStarted: {'identifier': 'pubsub'}
+[0.098391] (-) TimerEvent: {}
+[0.199004] (-) TimerEvent: {}
+[0.299408] (-) TimerEvent: {}
+[0.399937] (-) TimerEvent: {}
+[0.500518] (-) TimerEvent: {}
+[0.601094] (-) TimerEvent: {}
+[0.701497] (-) TimerEvent: {}
+[0.801872] (-) TimerEvent: {}
+[0.861959] (pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/opt/ros2_ws/src/pubsub/build/pubsub', 'build', '--build-base', '/opt/ros2_ws/src/pubsub/build/pubsub/build', 'install', '--prefix', '/opt/ros2_ws/src/pubsub/install/pubsub', '--record', '/opt/ros2_ws/src/pubsub/build/pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/opt/ros2_ws/src/pubsub', 'env': {'HOSTNAME': 'fcad659179ac', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '1', 'OLDPWD': '/opt/ros2_ws/src/pubsub/build', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/opt/ros2_ws/install', 'ROS_DISTRO': 'dashing', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros2_ws/install/sub_test:/opt/ros2_ws/install/pubsub:/opt/ros2_ws/install/pub_test:/opt/ros/dashing', 'LC_ALL': 'C.UTF-8', 'PWD': '/opt/ros2_ws/src/pubsub/build/pubsub', 'PYTHONPATH': '/opt/ros2_ws/src/pubsub/install/pubsub/lib/python3.6/site-packages:/opt/ros2_ws/install/sub_test/lib/python3.6/site-packages:/opt/ros2_ws/install/pubsub/lib/python3.6/site-packages:/opt/ros2_ws/install/pub_test/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'}, 'shell': False}
+[0.902085] (-) TimerEvent: {}
+[1.002623] (-) TimerEvent: {}
+[1.103011] (-) TimerEvent: {}
+[1.203394] (-) TimerEvent: {}
+[1.243944] (pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.245520] (pubsub) StdoutLine: {'line': b'writing /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/PKG-INFO\n'}
+[1.246141] (pubsub) StdoutLine: {'line': b'writing dependency_links to /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/dependency_links.txt\n'}
+[1.246477] (pubsub) StdoutLine: {'line': b'writing entry points to /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/entry_points.txt\n'}
+[1.246814] (pubsub) StdoutLine: {'line': b'writing requirements to /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/requires.txt\n'}
+[1.246972] (pubsub) StdoutLine: {'line': b'writing top-level names to /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/top_level.txt\n'}
+[1.303559] (-) TimerEvent: {}
+[1.305155] (pubsub) StdoutLine: {'line': b"reading manifest file '/opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[1.307409] (pubsub) StdoutLine: {'line': b"writing manifest file '/opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[1.307722] (pubsub) StdoutLine: {'line': b'running build\n'}
+[1.307877] (pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.308324] (pubsub) StdoutLine: {'line': b'running install\n'}
+[1.309118] (pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.311025] (pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.311904] (pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.314576] (pubsub) StdoutLine: {'line': b"removing '/opt/ros2_ws/src/pubsub/install/pubsub/lib/python3.6/site-packages/pubsub-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[1.315285] (pubsub) StdoutLine: {'line': b'Copying /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info to /opt/ros2_ws/src/pubsub/install/pubsub/lib/python3.6/site-packages/pubsub-0.0.0-py3.6.egg-info\n'}
+[1.316958] (pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.346112] (pubsub) StdoutLine: {'line': b'Installing pubsub script to /opt/ros2_ws/src/pubsub/install/pubsub/lib/pubsub\n'}
+[1.346538] (pubsub) StdoutLine: {'line': b'Installing subpub script to /opt/ros2_ws/src/pubsub/install/pubsub/lib/pubsub\n'}
+[1.347246] (pubsub) StdoutLine: {'line': b"writing list of installed files to '/opt/ros2_ws/src/pubsub/build/pubsub/install.log'\n"}
+[1.379447] (pubsub) CommandEnded: {'returncode': 0}
+[1.409751] (-) TimerEvent: {}
+[1.420077] (pubsub) JobEnded: {'identifier': 'pubsub', 'rc': 0}
+[1.421449] (-) EventReactorShutdown: {}

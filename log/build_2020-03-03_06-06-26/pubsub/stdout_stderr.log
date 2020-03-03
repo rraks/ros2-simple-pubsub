@@ -1,0 +1,20 @@
+[1.240s] running egg_info
+[1.242s] writing /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/PKG-INFO
+[1.242s] writing dependency_links to /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/dependency_links.txt
+[1.243s] writing entry points to /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/entry_points.txt
+[1.243s] writing requirements to /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/requires.txt
+[1.243s] writing top-level names to /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/top_level.txt
+[1.301s] reading manifest file '/opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.303s] writing manifest file '/opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.304s] running build
+[1.304s] running build_py
+[1.304s] running install
+[1.305s] running install_lib
+[1.307s] running install_data
+[1.308s] running install_egg_info
+[1.311s] removing '/opt/ros2_ws/src/pubsub/install/pubsub/lib/python3.6/site-packages/pubsub-0.0.0-py3.6.egg-info' (and everything under it)
+[1.311s] Copying /opt/ros2_ws/src/pubsub/build/pubsub/pubsub.egg-info to /opt/ros2_ws/src/pubsub/install/pubsub/lib/python3.6/site-packages/pubsub-0.0.0-py3.6.egg-info
+[1.313s] running install_scripts
+[1.342s] Installing pubsub script to /opt/ros2_ws/src/pubsub/install/pubsub/lib/pubsub
+[1.343s] Installing subpub script to /opt/ros2_ws/src/pubsub/install/pubsub/lib/pubsub
+[1.343s] writing list of installed files to '/opt/ros2_ws/src/pubsub/build/pubsub/install.log'
